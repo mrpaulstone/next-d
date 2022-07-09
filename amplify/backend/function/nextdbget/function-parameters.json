@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "api": {
+      "nextd": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    },
+    "function": {
+      "getdroneparts": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "ndronepartsfetch": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "ndroneparts": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "dynamo2": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "Post:@model(appsync)": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

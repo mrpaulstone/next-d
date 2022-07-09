@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nextd",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\User\\source\\amplify\\next-d\\amplify\\backend\\api\\nextd\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authnextdae8dfc0a"
+      }
+    ]
+  }
+}

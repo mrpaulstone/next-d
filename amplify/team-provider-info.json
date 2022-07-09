@@ -1,0 +1,40 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextd-dev-142819-authRole",
+      "UnauthRoleArn": "arn:aws:iam::098177495850:role/amplify-nextd-dev-142819-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::098177495850:role/amplify-nextd-dev-142819-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-nextd-dev-142819-deployment",
+      "UnauthRoleName": "amplify-nextd-dev-142819-unauthRole",
+      "StackName": "amplify-nextd-dev-142819",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:098177495850:stack/amplify-nextd-dev-142819/542b4070-ff50-11ec-9a12-028399aecace",
+      "AmplifyAppId": "d2yanjuk49rp4c"
+    },
+    "categories": {
+      "auth": {
+        "nextdae8dfc0a": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2yanjuk49rp4c",
+          "type": "cicd"
+        }
+      },
+      "function": {
+        "getdroneparts": {
+          "deploymentBucketName": "amplify-nextd-dev-142819-deployment",
+          "s3Key": "amplify-builds/getdroneparts-357a59386b2f58416c67-build.zip"
+        },
+        "ndronepartsfetch": {
+          "deploymentBucketName": "amplify-nextd-dev-142819-deployment",
+          "s3Key": "amplify-builds/ndronepartsfetch-6c764e57696750466237-build.zip"
+        },
+        "nextdbget": {
+          "deploymentBucketName": "amplify-nextd-dev-142819-deployment",
+          "s3Key": "amplify-builds/nextdbget-445931326a6444654a45-build.zip"
+        }
+      }
+    }
+  }
+}
